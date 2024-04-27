@@ -18,7 +18,7 @@
 
 ### Prerequisites
 
-- Linux operating system
+- Linux Centos operating system
 - Java JDK 1.8 or higher
 - Maven 3.6 or higher
 
