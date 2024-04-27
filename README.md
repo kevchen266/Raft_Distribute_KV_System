@@ -3,7 +3,7 @@
 - This project is a Java based Raft consensus algorithm distributed system on Linux environment, incorporating Leader election, log replication, and snapshot update functionalities
 - Leveraged Zookeeper for coordination tasks and RocksDB for persistent storage in the Java-based system, ensuring robustness and fault tolerance in the architecture. 
 - Designed and optimized a Java-based Key-Value storage interface supporting linearly consistent read and write operations, enhancing overall system performance through asynchronous Apply, ReadIndex, FollowerRead, Prevote, etc.
-- Complete setup and testing steps, as well as using Spring Boot to perform HTTP read/write tests.
+- Completed setup and testing steps, as well as using Spring Boot to perform HTTP read/write tests.
 
 <img width="538" alt="圖片1" src="https://github.com/kevchen266/Raft_Distribute_KV_System/assets/72414426/6c6a9d6c-d20e-462c-bcd8-b08abe6275f9">
 
