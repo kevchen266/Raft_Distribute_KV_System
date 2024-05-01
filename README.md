@@ -1,6 +1,7 @@
 # Raft-Java Distribute Key Value System on Linux Implementation
 
-- This project is a Java-based Raft consensus algorithm distributed system on a Linux environment, incorporating leader election, log replication, and snapshot update functionalities:
+## Features
+- This project deploy a Java-based Raft consensus algorithm distributed system on Linux environment, incorporating leader election, log replication, and snapshot update functionalities:
 - Utilized RocksDB for persistent storage in the Java-based system, ensuring robustness and fault tolerance in the architecture.
 - Designed and optimized a Java-based Key-Value storage interface supporting linearly consistent read and write operations, enhancing overall system performance through asynchronous Apply, ReadIndex, FollowerRead, Prevote, etc.
 - Created a Spring Boot project that serves as the server side to handle HTTP read and write requests from users, and as the client side to access the Raft project server side via RPC on the Linux server.
@@ -8,12 +9,6 @@
 
 <img width="600" alt="圖片1" src="https://github.com/kevchen266/Raft_Distribute_KV_System/assets/72414426/6c6a9d6c-d20e-462c-bcd8-b08abe6275f9">
 
-
-
-## Features
-
-- Deploy and test the Raft implementation on Linux systems.
-- Use a Spring Boot application to test read and write operations via HTTP.
 
 ## Quick Start
 
