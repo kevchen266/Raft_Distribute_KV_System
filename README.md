@@ -1,5 +1,8 @@
 # Raft-Java Distribute Key Value System on Linux Implementation
 
+## Project Overview:
+The primary goal of the project was to implement a distributed system that could handle read and write operations with linear consistency. The system involved leader election, log replication, and snapshot updates, all orchestrated using the Raft algorithm.
+
 ## Features
 - This project deploy a Java-based Raft consensus algorithm distributed system on Linux environment, incorporating leader election, log replication, and snapshot update functionalities:
 - Utilized RocksDB for persistent storage in the Java-based system, ensuring robustness and fault tolerance in the architecture.
